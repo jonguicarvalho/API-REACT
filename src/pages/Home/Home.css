@@ -1,0 +1,49 @@
+/* Home.css */
+.home-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.home-container h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.home-container li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.home-container li:hover {
+  background-color: #e0e0e0;
+}
+
+.list-link {
+  text-decoration: none;
+  /* Remove o sublinhado padrão dos links */
+  color: #007bff;
+  /* Define a cor do texto do link */
+  font-weight: bold;
+  /* Define o texto em negrito */
+}
+
+.list-link:hover {
+  text-decoration: underline;
+  /* Adiciona sublinhado ao passar o mouse sobre o link */
+  color: #0056b3;
+  /* Altera a cor do texto ao passar o mouse */
+}
