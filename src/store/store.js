@@ -14,3 +14,6 @@ export const store = configureStore({
     }),
   },
 });
+
+//limpar oq foi montado na pagina
+//nao deslogar quando o usuario voltar de pagina

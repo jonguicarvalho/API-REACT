@@ -1,7 +1,7 @@
 import { useForm } from 'react-hook-form';
 import Login from './Login';
 import { useNavigate } from 'react-router-dom';
-import { useCallback, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { login } from '../../processes/auth';
 import Swal from 'sweetalert2';
@@ -12,6 +12,7 @@ const LoginContainer = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
+
   const { control, handleSubmit } = useForm({
     defaultValues: {
       email: '',

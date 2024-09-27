@@ -1,0 +1,80 @@
+.update-task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.update-task-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.update-task-container p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.update-task-container .old-task,
+.update-task-container .old-date {
+  width: 80%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.update-task-container input {
+  width: 80%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#button-update {
+  width: 40%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#button-update:hover {
+  background-color: #45a049;
+}
+
+#button-delete {
+  margin-top: 15px;
+  width: 40%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #e82513;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#button-delete {
+  background-color: #c70404;
+}
+
+#button-back-task {
+  font-size: 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 20%;
+  box-sizing: border-box;
+}
